@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(24, 23, 23);
+    color: rgb(231, 227, 227);
+    font-size: 15px;
+}
+
+.light-mode {
+    background-color: whitesmoke;
+    color: rgb(22, 21, 21);
+}
+
+body nav {
+    background-color: #F6FFDE;
+}
+
+body nav ul {
+    font-size: 15px;
+}
+
+body nav ul li {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+body nav ul li a {
+    color: #2C3333;
+}
+
+body nav ul li a.active {
+    background-color: #FB8B24;
+    padding: 10px;
+}
+
+body nav ul li a:hover {
+    color: #2C3333 !important;
+    border-bottom: 2px solid #2C3333 !important;
+}
+
+body nav .left-button {
+    display: flex;
+    margin: 0;
+}
+
+body nav .left-button li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body nav .left-button li .button-one {
+    background-color: #282a29;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+body nav .left-button li .button-two {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 2px solid #2C3333 !important;
+}
+
+body nav .left-button li .button-three {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 10px;
+}
